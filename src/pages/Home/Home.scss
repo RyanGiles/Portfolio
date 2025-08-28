@@ -1,2 +1,7 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+#myVideo {
+  min-width: 100vw;
+  min-height: 100vh;
+}
