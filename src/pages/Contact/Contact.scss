@@ -1,2 +1,13 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+.contact {
+  margin: 0.5rem;
+  background-color: $grey;
+  &-title {
+    color: $silver;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+}

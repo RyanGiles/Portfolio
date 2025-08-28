@@ -22,7 +22,7 @@ function Header({ page, setPage }) {
         <ul className="nav__list">
           <li className="nav__item">
             <Link to="/" onClick={() => setPage("home")}>
-              <h3 className={homeClass}>Home</h3>
+              <h3 className={homeClass}>Portfolio</h3>
             </Link>
           </li>
           <li className="nav__item">

@@ -1,7 +1,17 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
 
-#myVideo {
-  min-width: 100vw;
-  min-height: 100vh;
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 0;
+  &-title {
+    color: $silver;
+    text-align: center;
+  }
+  &-item {
+    aspect-ratio: 16 / 9;
+  }
 }
