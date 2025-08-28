@@ -1,37 +1,40 @@
 import "./Home.scss";
+import BG_Video from "../../Assets/BG_Video.mp4";
+import siteLogo from "../../Assets/Icons/Logo_Clear.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="homepage">
-      <h1 className="homepage-title">HomePage</h1>
-      <video autoplay muted loop id="myVideo">
-        <source src="../../Assets/BG_Video.mp4" type="video/mp4" />
+      <header className="header">
+        <div className="header__branding">
+          <img src={siteLogo} alt="site logo" className="header__logo" />
+          <h1 className="header__title">Ryan Giles</h1>
+        </div>
+        <nav className="nav">
+          <ul className="nav__list">
+            <li className="nav__item">
+              <Link to="/">
+                <h3 className="nav__text">Play</h3>
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link to="/webDev">
+                <h3 className="nav__text">Controls</h3>
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link to="/contact">
+                <h3 className="nav__text">Settings</h3>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <video autoPlay muted loop className="homepage-bg">
+        <source src={BG_Video} type="video/mp4" />
         Your browser does not support HTML5 video.
       </video>
-      <div className="portfolio">
-        <h3 className="portfolio-title">Project A.R.M.O.R.</h3>
-        <iframe
-          className="portfolio-item"
-          src="https://www.youtube.com/embed/JluofMrK23o?si=xWtaPOvgqu2T0dqn"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div className="portfolio">
-        <h3 className="portfolio-title">Rhythm City</h3>
-        <iframe
-          className="portfolio-item"
-          src="https://www.youtube.com/embed/A34QIyLzQ78?si=qgZ6klUySiaFmXBi"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
     </div>
   );
 }

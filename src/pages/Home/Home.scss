@@ -1,6 +1,23 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
 
+.homepage {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  &-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+}
+
 .portfolio {
   display: flex;
   justify-content: center;
@@ -13,5 +30,76 @@
   }
   &-item {
     aspect-ratio: 16 / 9;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  width: 50%;
+  &__title {
+    margin: 0;
+    font-size: 5rem;
+    margin-left: 2rem;
+    @include desktop {
+      font-size: 5rem;
+    }
+  }
+  &__logo {
+    height: 5rem;
+    @include desktop {
+      height: 10rem;
+    }
+  }
+  &__branding {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    @include tablet {
+      margin: 0;
+    }
+  }
+}
+
+.nav {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0;
+    list-style: none;
+    margin: 0.5rem 0;
+    @include tablet {
+      margin: 0;
+    }
+  }
+  &__item {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    @include tablet {
+      font-size: 2.5rem;
+    }
+    @include desktop {
+      font-size: 2.75rem;
+    }
+  }
+  &__text {
+    color: $white;
+    &:hover {
+      text-shadow: 0px 0px 40px $white;
+    }
   }
 }
