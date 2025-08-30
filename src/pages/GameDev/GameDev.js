@@ -1,33 +1,19 @@
 import "./GameDev.scss";
+import BG_Transition from "../../Assets/BG_Transition.mp4";
 
 function GameDev() {
   return (
     <div className="GameDev">
+      <video autoPlay muted className="homepage-bg">
+              <source src={BG_Transition} type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
       <h1 className="GameDev-title">GameDev</h1>
-
       <div className="portfolio">
-        <h3 className="portfolio-title">Project A.R.M.O.R.</h3>
-        <iframe
-          className="portfolio-item"
-          src="https://www.youtube.com/embed/JluofMrK23o?si=xWtaPOvgqu2T0dqn"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div className="portfolio">
-        <h3 className="portfolio-title">Rhythm City</h3>
-        <iframe
-          className="portfolio-item"
-          src="https://www.youtube.com/embed/A34QIyLzQ78?si=qgZ6klUySiaFmXBi"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <div className="portfolio__item"></div>
+        <div className="portfolio__item"></div>
+        <div className="portfolio__item"></div>
+        <div className="portfolio__item"></div>
       </div>
     </div>
   );
