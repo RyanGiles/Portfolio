@@ -1,7 +1,16 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
 
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
 .portfolio{
+  animation-name: fadeIn;
+  animation-duration: 0.25s; /* How long the animation takes */
+  animation-delay: 5s; /* The delay before the animation starts */
+  animation-fill-mode: both;
   position: absolute;
   top: 14%;
   left: 19.5%;
@@ -15,6 +24,11 @@
     width: 48.5%;
     height: 48%;
     background-color: green;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
