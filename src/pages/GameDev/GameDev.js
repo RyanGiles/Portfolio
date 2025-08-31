@@ -80,7 +80,7 @@ function GameDev() {
         <div className="portfolio__item">{getItem(1)}</div>
         <div className="portfolio__item">{getItem(2)}</div>
         <div className="portfolio__item">{getItem(3)}</div>
-        
+        <img src="/LogoTV.png" alt="logo" className="TVlogo" />
       </div>
       {renderPageButton(1)}
     </div>
