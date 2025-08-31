@@ -7,10 +7,10 @@ import { useState } from "react";
 
 function GameDev() {
   const [images, setImages] = useState(Projects.images.home);
-  let home = true;
+  const [page, setPage] = useState('home');
 
   function getItem(index) {
-    if (home) {
+    if (page === 'home') {
       let project;
       switch (index){
         case 0:
@@ -29,9 +29,22 @@ function GameDev() {
           console.error("Switch case in getItems hit default");
           break;
       }
-      return <img src={images[index]} onClick={() => {setImages(project)}} alt="test" className="portfolio__img" />
+      return <img src={images[index]} onClick={() => {setImages(project); setPage(0)}} alt="test" className="portfolio__img" />
     } else {
-      //code here to find page index and then create html tags based on file type
+      let items = [];
+      for (let i = 0; i < 4; i++) {
+        items.push(images[i+(page*4)]);
+      }
+      console.log(items.length); //showing 4, but making 10
+      return items.map((item) => {
+        if (item.split('.')[1] === "mp4") {
+          return <video src={item} className="portfolio__img"></video>
+        } else if (item.split('.')[1] === "PNG" || item.split('.')[1] === "jpg") {
+          return <img src={item} alt="projectimage" className="portfolio__img" />
+        } else {
+          return <div className="portfolio__img">{item}</div>
+        }
+      })
     }
   }
 
