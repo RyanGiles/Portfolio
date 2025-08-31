@@ -1,8 +1,8 @@
 {
     "images": {
         "home":["/test1.PNG","/test2.jpg","/test3.jpg",""],
-        "p1":["/test1.PNG","/test1.PNG","/test1.PNG","/test1.PNG"],
-        "p2":["/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg"],
+        "p1":["/test1.PNG","/test1.PNG","/test1.PNG","/test1.PNG","/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg"],
+        "p2":["/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test3.jpg","/test3.jpg","/test3.jpg","/test3.jpg"],
         "p3":["/test3.jpg","/test3.jpg","/test3.jpg","/test3.jpg"],
         "p4":[]
     }
