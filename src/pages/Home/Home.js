@@ -28,7 +28,7 @@ function Home() {
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="/gameDev" className="nav__link">
+              <Link to="/webDev" className="nav__link">
                 <h3 className="nav__text">
                   <span className="nav__main">Controls</span>
                   <span className="nav__reveal">
@@ -38,7 +38,7 @@ function Home() {
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="/gameDev" className="nav__link">
+              <Link to="/contact" className="nav__link">
                 <h3 className="nav__text">
                   <span className="nav__main">Settings</span>
                   <span className="nav__reveal">

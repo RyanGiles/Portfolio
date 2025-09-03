@@ -1,13 +1,60 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
 
-.contact {
-  margin: 0.5rem;
-  background-color: $grey;
-  &-title {
-    color: $silver;
-    margin: 0;
-    text-align: center;
-    padding: 1rem;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.contact{
+  &__info{
+    animation-name: fadeIn;
+    animation-duration: 0.1s; /* How long the animation takes */
+    animation-delay: 5.4s; /* The delay before the animation starts */
+    animation-fill-mode: both;
+    position: absolute;
+    top: 14%;
+    left: 19.5%;
+    width: 62%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
   }
+  &__block{
+    width: 48.5%;
+    height: 48%;
+    border-radius: 5%;
+    border: 5px solid #141e5e;
+  }
+  &__desc{
+    color: $silver;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 1rem;
+    height: calc(100% - 2rem);
+    width: calc(48.5% - 4rem);
+    @include HD{
+      font-size: 1.55rem;
+      padding-right: 4.5rem;
+      width: calc(48.5% - 5.5rem);
+    }
+  }
+}
+
+.back{
+  position: absolute;
+  height: 12%;
+  left: -28%;
+}
+
+.TVlogo{
+  position: absolute;
+  z-index: 100;
+  width: 13%;
+  left: 43%;
+  top: 32.5%;
+  border-radius: 5%;
+  border: 0.390625vw solid #141e5e;
 }
