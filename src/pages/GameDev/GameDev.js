@@ -31,28 +31,36 @@ function GameDev() {
           console.error("Switch case in getItems hit default");
           break;
       }
-      return <img src={images[index]} onClick={() => {setImages(project); setPage(0)}} alt="test" className="portfolio__img" />
+      return <div className="portfolio__item"><img src={images[index]} onClick={() => {setImages(project); setPage(0)}} alt="test" className="portfolio__img" /></div>
     } else {
       let items = [];
       for (let i = 0; i < 4; i++) {
         items.push(images[i+(page*4)]);
       }
+      if (items[index] === undefined) {
+        return;
+      }
         if (items[index].split('.')[1] === "mp4") {
-          return <video src={items[index]} className="portfolio__img"></video>
+          return (
+          <div className="portfolio__item">
+          <video autoPlay controls loop src={items[index]} className="portfolio__img"></video>
+          </div>);
         } else if ((items[index].split('.')[1] === "PNG") || (items[index].split('.')[1] === "jpg")) {
-          return <img src={items[index]} alt="projectimage" className="portfolio__img" />
+          return (
+            <div className="portfolio__item">
+          <img src={items[index]} alt="projectimage" className="portfolio__img" />
+          </div>);
         } else {
-          return <div className="portfolio__img">{items[index]}</div>
+          return <div className="portfolio__item"><div className="portfolio__img">{items[index]}</div></div>
         }
     }
   }
 
   function renderPageButton(index) {
     if (page !== 'home'){
-      console.log(Math.floor(images.length / 4))
       if(index === 0 && page !== 0) {
         return <img onClick={() => {setPage(page -1)}} src="/PrevPage.png" alt="back" className="page__back" />
-      } else if (index === 1 && page !== (Math.floor(images.length / 4) - 1)) {
+      } else if ((index === 1 && page < (Math.floor(images.length / 4) - 1)) || (index === 1 && page === (Math.floor(images.length/4) - 2) && images.length%4 === 0)) {
         return <img onClick={() => {setPage(page +1)}} src="/NextPage.png" alt="back" className="page__next" />
       }
     }
@@ -76,11 +84,10 @@ function GameDev() {
       {renderPageButton(0)}
       <div className="portfolio">
         <img onClick={() => {handleBack()}} src="/back.png" alt="back" className="back" />
-        <div className="portfolio__item">{getItem(0)}</div>
-        <div className="portfolio__item">{getItem(1)}</div>
-        <div className="portfolio__item">{getItem(2)}</div>
-        <div className="portfolio__item">{getItem(3)}</div>
-        <img src="/LogoTV.png" alt="logo" className="TVlogo" />
+        {getItem(0)}
+        {getItem(1)}
+        {getItem(2)}
+        {getItem(3)}
       </div>
       {renderPageButton(1)}
     </div>
