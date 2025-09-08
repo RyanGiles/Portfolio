@@ -1,8 +1,8 @@
 {
     "images": {
         "home":["/test1.PNG","/test2.jpg","/test3.jpg",""],
-        "p1":["/test1.PNG","/test1.PNG","/test1.PNG","/test1.PNG","/test2.jpg","/test2.jpg","/test2.jpg"],
-        "p2":["/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test3.jpg","/test3.jpg","/test3.jpg","/test3.jpg"],
+        "p1":["/PA1.mp4"],
+        "p2":["/HS1.mp4","/HS2.png","/HS3.png","/HS4.png","/HS5.png","/HS6.png","/HS7.png","/HS8.png","/HS9.png","/HS10.png","/HS11.png","/HS12.png","/HS13.png","/HS14.png","/HS15.png","/HS16.png","/HS17.png","/HS18.png","/HS19.png","/HS20.png","/HS21.png","/HS22.png","/HS23.png","/HS24.png","/HS25.png","/HS26.png","/HS27.png","/HS28.png","/HS29.png","/HS30.png","/HS31.png","/HS32.png","/HS33.png","/HS34.png","/HS35.png"],
         "p3":["/test3.jpg","/test3.jpg","/test3.jpg","/test3.jpg"],
         "p4":[]
     }

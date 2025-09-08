@@ -45,7 +45,7 @@ function GameDev() {
           <div className="portfolio__item">
           <video autoPlay controls loop src={items[index]} className="portfolio__img"></video>
           </div>);
-        } else if ((items[index].split('.')[1] === "PNG") || (items[index].split('.')[1] === "jpg")) {
+        } else if ((items[index].split('.')[1] === "png") || (items[index].split('.')[1] === "jpg")) {
           return (
             <div className="portfolio__item">
           <img src={items[index]} alt="projectimage" className="portfolio__img" />
