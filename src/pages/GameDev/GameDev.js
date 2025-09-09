@@ -9,6 +9,28 @@ function GameDev() {
   const [page, setPage] = useState("home");
   const navigate = useNavigate();
 
+  function fullscreen(image) {
+    // Create the fullscreen overlay container
+    const overlay = document.createElement("div");
+    overlay.className = "portfolio__fullscreen";
+
+    // Add click handler to remove the overlay when clicked
+    overlay.addEventListener("click", function removeElement() {
+      overlay.remove();
+    });
+
+    // Create the image element
+    const img = document.createElement("img");
+    img.src = image;
+    img.className = "portfolio__fullscreen__image";
+
+    // Append the image to the overlay
+    overlay.appendChild(img);
+
+    // Append the overlay to the body
+    document.body.appendChild(overlay);
+  }
+
   function getItem(index) {
     if (page === "home") {
       let project;
@@ -82,6 +104,9 @@ function GameDev() {
         return (
           <div className="portfolio__item">
             <img
+              onClick={() => {
+                fullscreen(items[index]);
+              }}
               src={items[index]}
               alt="projectimage"
               className="portfolio__img"
