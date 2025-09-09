@@ -30,8 +30,8 @@ function Contact() {
           Throughout this time, I have learned to be the bridge between
           Designers and Engineers. I frequently assist Designers not only in the
           ideation and creation of designs, but also in ensuring that the design
-          will mesh well with the abilities of engineers and capabilities of
-          technology. I also regularly help engineers keep in mind a
+          will mesh well with the abilities of Engineers and capabilities of
+          technology. I also regularly help Engineers keep in mind a
           human-centered design that will be user-friendly when ideating and
           creating product functionality.
         </div>
