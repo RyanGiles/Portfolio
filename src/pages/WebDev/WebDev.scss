@@ -2,14 +2,18 @@
 @use "../../styles/variables" as *;
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.portfolio{
+.portfolio {
   animation-name: fadeIn;
   animation-duration: 0.1s; /* How long the animation takes */
-  animation-delay: 5.4s; /* The delay before the animation starts */
+  animation-delay: 1.25s; /* The delay before the animation starts */
   animation-fill-mode: both;
   position: absolute;
   top: 14%;
@@ -20,11 +24,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  &__item{
+  &__item {
     width: 48.5%;
     height: 48%;
     border-radius: 5%;
     border: 5px solid #141e5e;
+    background-color: rgba(2, 15, 42, 1);
+    align-content: center;
   }
   &__img {
     width: 100%;
@@ -32,30 +38,40 @@
     object-fit: cover;
     border-radius: 3%;
   }
+  &__text {
+    color: $silver;
+    text-align: center;
+    padding: 3%;
+    margin: 0;
+    font-size: 1.25rem;
+    @include HD {
+      font-size: 1.75rem;
+    }
+  }
 }
 
-.page{
-  &__next{
+.page {
+  &__next {
     position: absolute;
     left: 85%;
     width: 5%;
     height: 15%;
     top: 50%;
-    &:hover{
-     left: 84.75%;
+    &:hover {
+      left: 84.75%;
       width: 5.5%;
       height: 16%;
       top: 49.5%;
     }
   }
-  &__back{
+  &__back {
     position: absolute;
     left: 11%;
     width: 5%;
     height: 15%;
     top: 50%;
-    &:hover{
-     left: 10.75%;
+    &:hover {
+      left: 10.75%;
       width: 5.5%;
       height: 16%;
       top: 49.5%;
@@ -63,9 +79,8 @@
   }
 }
 
-.back{
+.back {
   position: absolute;
   height: 12%;
   left: -28%;
 }
-
