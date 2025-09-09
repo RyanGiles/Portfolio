@@ -51,7 +51,7 @@ function GameDev() {
           <img src={items[index]} alt="projectimage" className="portfolio__img" />
           </div>);
         } else {
-          return <div className="portfolio__item"><div className="portfolio__img">{items[index]}</div></div>
+          return <div className="portfolio__item"><p className="portfolio__text">{items[index]}</p></div>
         }
     }
   }
