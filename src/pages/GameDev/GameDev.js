@@ -112,9 +112,11 @@ function GameDev() {
           />
         );
       } else if (
-        (index === 1 && page < Math.floor(images.length / 4) - 1) ||
         (index === 1 &&
-          page === Math.floor(images.length / 4) - 2 &&
+          page < Math.floor(images.length / 4) &&
+          images.length % 4 !== 0) ||
+        (index === 1 &&
+          page <= Math.floor(images.length / 4) - 2 &&
           images.length % 4 === 0)
       ) {
         return (
