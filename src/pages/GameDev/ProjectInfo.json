@@ -3,7 +3,7 @@
     "home": [
       "/PAThumbnail.png",
       "/HSThumbnail.png",
-      "/test3.jpg",
+      "/RC2.png",
       "In all of these projects, all assets, programming, and music were created by me unless strictly stated otherwise."
     ],
     "p1": [
@@ -69,7 +69,24 @@
       "/HS34.png",
       "/HS35.png"
     ],
-    "p3": ["/test3.jpg", "/test3.jpg", "/test3.jpg", "/test3.jpg"],
+    "p3": [
+      "/RC1.mp4",
+      "Rythym City is a 2D platformer game created entirely using Procreate and Processing 4.0 (And Garageband for music). This game was created as a final project for Core Principles: Programming at SCAD. All code, music, and assets except for the character sprite were created by me.",
+      "/RC2.png",
+      "/RC3.png",
+      "/RC4.png",
+      "/RC5.png",
+      "/RC6.png",
+      "/RC7.png",
+      "/RC8.png",
+      "/RC9.png",
+      "/RC10.png",
+      "/RC11.png",
+      "/RC12.png",
+      "/RC13.png",
+      "/RC14.png",
+      "/RC15.png"
+    ],
     "p4": []
   }
 }
