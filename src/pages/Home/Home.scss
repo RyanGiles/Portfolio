@@ -2,10 +2,13 @@
 @use "../../styles/variables" as *;
 
 @keyframes revealLeft {
-  from { width: 0%;}
-  to {width: auto;}
+  from {
+    width: 0%;
+  }
+  to {
+    width: auto;
+  }
 }
-
 
 a {
   text-decoration: none;
@@ -21,6 +24,10 @@ a {
   &__title {
     margin: 0;
     font-size: 4rem;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     @include desktop {
       font-size: 4rem;
     }
@@ -57,8 +64,12 @@ a {
     margin: 2rem 0;
     font-size: 1rem;
 
-    @include tablet { font-size: 1.5rem; }
-    @include desktop { font-size: 2rem; }
+    @include tablet {
+      font-size: 1.5rem;
+    }
+    @include desktop {
+      font-size: 2rem;
+    }
 
     .nav__link {
       text-decoration: none;
@@ -68,13 +79,17 @@ a {
   }
 
   &__text {
-    display: inline-flex;        // changed from inline-block to align items
-    align-items: baseline;       // ensures main + reveal line up
+    display: inline-flex; // changed from inline-block to align items
+    align-items: baseline; // ensures main + reveal line up
     position: relative;
     margin: 0;
     color: $white;
     white-space: nowrap;
     padding-bottom: 1rem;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
     &::after {
       content: "";
@@ -92,8 +107,8 @@ a {
   &__main {
     display: inline-block;
     position: relative;
-    line-height: 1;              // ensure consistent line-height
-    vertical-align: baseline;    // line up with reveal
+    line-height: 1; // ensure consistent line-height
+    vertical-align: baseline; // line up with reveal
   }
 
   &__reveal {
@@ -103,17 +118,17 @@ a {
     transition: max-width 0.6s ease;
     white-space: nowrap;
     margin-left: 0.15rem;
-    line-height: 1;              // match main
-    vertical-align: baseline;    // align with main
-    margin: 0;                    // remove any default margin
-    padding: 0;                   // remove padding
+    line-height: 1; // match main
+    vertical-align: baseline; // align with main
+    margin: 0; // remove any default margin
+    padding: 0; // remove padding
   }
 
   &__subtext {
     display: inline-block;
     color: $white;
     white-space: nowrap;
-    line-height: 1;              // match main
+    line-height: 1; // match main
   }
 
   &__item:hover .nav__reveal,
@@ -130,7 +145,7 @@ a {
 /* background video — fixed and behind everything */
 .homepage-bg {
   position: fixed !important;
-  inset: 0 !important;      /* top:0; right:0; bottom:0; left:0; */
+  inset: 0 !important; /* top:0; right:0; bottom:0; left:0; */
   width: 100vw !important;
   height: 100vh !important;
   object-fit: cover !important;

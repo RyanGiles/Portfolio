@@ -53,7 +53,7 @@ function Contact() {
             at Texas A&M University.
           </div>
           <div className="contact__textbottom">
-            I also recieved a Software Development Diploma from Brainstation
+            I also received a Software Development Diploma from Brainstation
             Coding Bootcamp, where I learned to design and program websites
             using HTML, CSS, and React.js.Throughout this time, I have learned
             to be the bridge between Designers and Engineers. I frequently
