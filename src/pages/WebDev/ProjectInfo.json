@@ -1,23 +1,23 @@
 {
   "images": {
-    "home": ["/AH2.png", "/test2.jpg", "/test3.jpg", ""],
+    "home": [
+      "/AH2.png",
+      "The site you are on right now was created entirely by me (aside from the logo, which was designed by Aurora Hull). It is a React.js application programmed using HTML, CSS, and Javascript.",
+      "/NFL2.png"
+    ],
     "p1": [
       "AH1.mp4",
       "This site is a portfolio site for Aurora Hull — the designer of my logo. This site is a React.js application created with HTML, CSS, and Javascript. Visit this site at http://www.aurorahull.com/",
       "AH2.png",
       "AH3.png"
     ],
-    "p2": [
-      "/test2.jpg",
-      "/test2.jpg",
-      "/test2.jpg",
-      "/test2.jpg",
-      "/test3.jpg",
-      "/test3.jpg",
-      "/test3.jpg",
-      "/test3.jpg"
+    "p2": [],
+    "p3": [
+      "/NFL1.mp4",
+      "NFL Stat Factory is an application created completely using Processing 4.3 and Procreate for my final project in Apllied Principles: Programming at SCAD. In this application, I utilize the ESPN public API endpoints to retrieve the most relevant data for all active NFL players.",
+      "/NFL2.png",
+      "/NFL3.png"
     ],
-    "p3": ["/test3.jpg", "/test3.jpg", "/test3.jpg", "/test3.jpg"],
     "p4": []
   }
 }
