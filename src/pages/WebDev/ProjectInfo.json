@@ -1,9 +1,23 @@
 {
-    "images": {
-        "home":["/test1.PNG","/test2.jpg","/test3.jpg",""],
-        "p1":["/test1.PNG","/test1.PNG","/test1.PNG","/test1.PNG","/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg"],
-        "p2":["/test2.jpg","/test2.jpg","/test2.jpg","/test2.jpg","/test3.jpg","/test3.jpg","/test3.jpg","/test3.jpg"],
-        "p3":["/test3.jpg","/test3.jpg","/test3.jpg","/test3.jpg"],
-        "p4":[]
-    }
+  "images": {
+    "home": ["/AH2.png", "/test2.jpg", "/test3.jpg", ""],
+    "p1": [
+      "AH1.mp4",
+      "This site is a portfolio site for Aurora Hull — the designer of my logo. This site is a React.js application created with HTML, CSS, and Javascript. Visit this site at http://www.aurorahull.com/",
+      "AH2.png",
+      "AH3.png"
+    ],
+    "p2": [
+      "/test2.jpg",
+      "/test2.jpg",
+      "/test2.jpg",
+      "/test2.jpg",
+      "/test3.jpg",
+      "/test3.jpg",
+      "/test3.jpg",
+      "/test3.jpg"
+    ],
+    "p3": ["/test3.jpg", "/test3.jpg", "/test3.jpg", "/test3.jpg"],
+    "p4": []
+  }
 }
