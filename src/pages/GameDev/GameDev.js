@@ -54,7 +54,8 @@ function GameDev() {
       if (images[index] !== undefined) {
         if (
           images[index].split(".")[1] === "png" ||
-          images[index].split(".")[1] === "jpg"
+          images[index].split(".")[1] === "jpg" ||
+          images[index].split(".")[1] === "PNG"
         ) {
           return (
             <div className="portfolio__item">
@@ -99,7 +100,8 @@ function GameDev() {
         );
       } else if (
         items[index].split(".")[1] === "png" ||
-        items[index].split(".")[1] === "jpg"
+        items[index].split(".")[1] === "jpg" ||
+        items[index].split(".")[1] === "PNG"
       ) {
         return (
           <div className="portfolio__item">
