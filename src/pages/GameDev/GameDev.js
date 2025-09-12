@@ -52,10 +52,8 @@ function GameDev() {
           break;
       }
       if (images[index] !== undefined) {
-        if (
-          images[index].split(".")[1].toLowerCase() === "png" ||
-          images[index].split(".")[1] === "jpg"
-        ) {
+        const fileExtension = items[index].split(".").pop().toLowerCase();
+        if (fileExtension === "png" || fileExtension === "jpg") {
           return (
             <div className="portfolio__item">
               <img
@@ -85,7 +83,8 @@ function GameDev() {
       if (items[index] === undefined) {
         return;
       }
-      if (items[index].split(".")[1] === "mp4") {
+      const fileExtension = items[index].split(".").pop().toLowerCase();
+      if (fileExtension === "mp4") {
         return (
           <div className="portfolio__item">
             <video
@@ -97,10 +96,7 @@ function GameDev() {
             ></video>
           </div>
         );
-      } else if (
-        items[index].split(".")[1].toLowerCase() === "png" ||
-        items[index].split(".")[1] === "jpg"
-      ) {
+      } else if (fileExtension === "png" || fileExtension === "jpg") {
         return (
           <div className="portfolio__item">
             <img
