@@ -52,7 +52,7 @@ function GameDev() {
           break;
       }
       if (images[index] !== undefined) {
-        const fileExtension = items[index].split(".").pop().toLowerCase();
+        const fileExtension = images[index].split(".").pop().toLowerCase();
         if (fileExtension === "png" || fileExtension === "jpg") {
           return (
             <div className="portfolio__item">
