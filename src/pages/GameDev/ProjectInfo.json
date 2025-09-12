@@ -1,19 +1,19 @@
 {
   "images": {
     "home": [
-      "/PAThumbnail.PNG",
-      "/HSThumbnail.PNG",
-      "/RC2.PNG",
+      "/PAThumbnail.png",
+      "/HSThumbnail.png",
+      "/RC2.png",
       "In all of these projects, all assets, programming, and music were created by me unless strictly stated otherwise."
     ],
     "p1": [
       "/PA1.mp4",
       "Project A.R.M.O.R. was created as a final project from the class “Core Principles: Game Art” at SCAD. This was my first class where I learned Maya and Unreal Engine. This project was made entirely using Unreal Engine 5, Maya 2022, and Photoshop. This project uses the default sky in UE5.",
-      "/PA2.PNG",
-      "/PA3.PNG",
-      "/PA4.PNG",
-      "/PA5.PNG",
-      "/PA6.PNG",
+      "/PA2.png",
+      "/PA3.png",
+      "/PA4.png",
+      "/PA5.png",
+      "/PA6.png",
       "/PA7.png",
       "/PA8.png",
       "/PA9.png",
@@ -72,8 +72,8 @@
     "p3": [
       "/RC1.mp4",
       "Rythym City is a 2D platformer game created entirely using Procreate and Processing 4.0 (And Garageband for music). This game was created as a final project for Core Principles: Programming at SCAD. All code, music, and assets except for the character sprite were created by me.",
-      "/RC2.PNG",
-      "/RC3.PNG",
+      "/RC2.png",
+      "/RC3.png",
       "/RC4.png",
       "/RC5.png",
       "/RC6.png",
