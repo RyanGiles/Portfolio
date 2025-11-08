@@ -13,37 +13,32 @@ function Home() {
       <header className="header">
         <div className="header__branding">
           <img src={siteLogo} alt="site logo" className="header__logo" />
-          <h1 className="header__title">Ryan<br/>Giles</h1>
+          <h1 className="header__title">
+            Ryan
+            <br />
+            Giles
+          </h1>
         </div>
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
               <Link to="/gameDev" className="nav__link">
                 <h3 className="nav__text">
-                  <span className="nav__main">Play</span>
-                  <span className="nav__reveal">
-                    <span className="nav__subtext">—Game Development</span>
-                  </span>
+                  <span className="nav__main">Game Dev</span>
                 </h3>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/webDev" className="nav__link">
                 <h3 className="nav__text">
-                  <span className="nav__main">Controls</span>
-                  <span className="nav__reveal">
-                    <span className="nav__subtext">—Web Development</span>
-                  </span>
+                  <span className="nav__main">Web Dev</span>
                 </h3>
               </Link>
             </li>
             <li className="nav__item">
               <Link to="/contact" className="nav__link">
                 <h3 className="nav__text">
-                  <span className="nav__main">Settings</span>
-                  <span className="nav__reveal">
-                    <span className="nav__subtext">—Contact/About Me</span>
-                  </span>
+                  <span className="nav__main">About/Contact</span>
                 </h3>
               </Link>
             </li>

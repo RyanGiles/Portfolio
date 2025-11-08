@@ -1,11 +1,6 @@
 {
   "images": {
-    "home": [
-      "/PAThumbnail.png",
-      "/HSThumbnail.png",
-      "/RC2.png",
-      "In all of these projects, all assets, programming, and music were created by me unless strictly stated otherwise."
-    ],
+    "home": ["/PAThumbnail.png", "/HSThumbnail.png", "/HT2.png", "/RC2.png"],
     "p1": [
       "/PA1.mp4",
       "Project A.R.M.O.R. was created as a final project from the class “Core Principles: Game Art” at SCAD. This was my first class where I learned Maya and Unreal Engine. This project was made entirely using Unreal Engine 5, Maya 2022, and Photoshop. This project uses the default sky in UE5.",
@@ -70,6 +65,36 @@
       "/HS35.png"
     ],
     "p3": [
+      "/HT1.mp4",
+      "HyperTanks is a 2.5D tank game that I created for my Studio 1 class at SCAD. This project effectively gave me 10 weeks of good UE5 blueprinting practice, greatly improving my skills and confidence in writing clean, effective blueprint scripts.",
+      "/HT2.png",
+      "/HT3.png",
+      "My first level design (image on the right) had a few issues that were pointed out to me after testing. The level was too linear, the combat was slow, and most importantly - the players could easily sit outside the enemy's range and never be in any danger.",
+      "/HT4.png",
+      "/HT5.png",
+      "To solve these issues, I redesigned the level (image on the left). This new design (along with removing the player's ability to rotate the camera) forced the player to enter the range of enemy turrets while also giving a much more engaging path through the level.",
+      "My main goal with this project was to refine my blueprinting skills by creating a clean and effecient combat system focused on using mobility to avoid enemy fire while simultaneously firing at enemies.",
+      "/HT6.png",
+      "/HT7.png",
+      "/HT8.png",
+      "/HT9.png",
+      "/HT10.png",
+      "/HT11.png",
+      "/HT12.png",
+      "/HT13.png",
+      "/HT14.png",
+      "/HT15.png",
+      "/HT16.png",
+      "/HT17.png",
+      "/HT18.png",
+      "/HT19.png",
+      "/HT20.png",
+      "/HT21.png",
+      "/HT22.png",
+      "/HT23.png",
+      "/HT24.png"
+    ],
+    "p4": [
       "/RC1.mp4",
       "Rythym City is a 2D platformer game created entirely using Procreate and Processing 4.0 (And Garageband for music). This game was created as a final project for Core Principles: Programming at SCAD. All code, music, and assets except for the character sprite were created by me.",
       "/RC2.png",
@@ -86,7 +111,6 @@
       "/RC13.png",
       "/RC14.png",
       "/RC15.png"
-    ],
-    "p4": []
+    ]
   }
 }
