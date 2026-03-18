@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "text": "All assets in the following projects (visuals, programming, and music) were made by me unless stated otherwise in the project's page.",
+      "name": "beginplay",
+      "title": "Begin Play",
+      "isLink": false
+    },
+    {
+      "image": "/HTShowcase.gif",
+      "name": "hypertanks",
+      "title": "HyperTanks",
+      "isLink": true
+    },
+    {
+      "image": "/HSThumbnail.png",
+      "name": "homesick",
+      "title": "Homesick",
+      "isLink": true
+    },
+    {
+      "text": "The site you are currently visiting is a React.js application that was made by me using HTML, CSS, and Javascript. All pictures and assets are created by me aside from my logo, which was designed by Aurora Hull.",
+      "name": "thissite",
+      "title": "This Site",
+      "isLink": false
+    },
+    {
+      "image": "/NFL2.png",
+      "name": "nflstats",
+      "title": "NFL Stat Factory",
+      "isLink": true
+    },
+    {
+      "image": "/RC2.png",
+      "name": "rhythmcity",
+      "title": "Rhythm City",
+      "isLink": true
+    },
+    {
+      "image": "/PAThumbnail.png",
+      "name": "projectarmor",
+      "title": "Project A.R.M.O.R.",
+      "isLink": true
+    }
+  ]
+}

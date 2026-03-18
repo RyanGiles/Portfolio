@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "text": "In all of the following group projects I acted as the main/only programmer, designing most/all systems and coordinating with designers on project needs.",
+      "name": "beginplay",
+      "title": "Begin Play",
+      "isLink": false
+    },
+    {
+      "image": "/WORThumbnail.png",
+      "name": "websofreverie",
+      "title": "Webs of Reverie",
+      "isLink": true
+    },
+    {
+      "image": "/NDThumbnail.png",
+      "name": "nosedive",
+      "title": "Nose Dive",
+      "isLink": true
+    },
+    {
+      "image": "/AH2.png",
+      "name": "aurorahullportfolio",
+      "title": "Aurora Hull Portfolio",
+      "isLink": true
+    }
+  ]
+}

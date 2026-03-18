@@ -1,0 +1,410 @@
+{
+  "projects": {
+    "hypertanks": [
+      {
+        "video": "/HT1.mp4",
+        "name": "Start",
+        "title": "HyperTanks",
+        "isLink": false
+      },
+      {
+        "text": "Created in the Fall of 2025, HyperTanks is my project from the Studio 1 class - the first part of senior projects at SCAD. It is a 2.5D tank shooter heavily inspired by Wii Play tanks.",
+        "name": "N/A",
+        "title": "HyperTanks",
+        "isLink": false
+      },
+      {
+        "text": "This first version of the map was very linear, meant to teach the player one system at a time in each area. Early testing revealed that players could very easily sit outside the enemy's range and destroy them.",
+        "name": "N/A",
+        "title": "Early Map Issues",
+        "isLink": false
+      },
+      {
+        "image": "/HT4.png",
+        "name": "N/A",
+        "title": "Early Map Idea",
+        "isLink": false
+      },
+      {
+        "image": "/HT5.png",
+        "name": "N/A",
+        "title": "New Map",
+        "isLink": false
+      },
+      {
+        "text": "The map redesign now forces players to enter the range of the enemies in order to fight them. It also introduced destructible stone barriers that the player can destroy after recieving an upgrade from destroyed enemies.",
+        "name": "N/A",
+        "title": "New Map Solutions",
+        "isLink": false
+      },
+      {
+        "image": "/HT18.png",
+        "name": "N/A",
+        "title": "Player Tick Event",
+        "isLink": false
+      },
+      {
+        "text": "There were two main improvements that I made to my workflow during this project. The first of which was organizing my code into functions. While I already understood functions and their usage, I did not have a project with a large enough scope to necessitate them until this project. Making the switch to function-based organization has allowed me to keep my Event Graph very clean and organized while also creating very modular and reusable code.",
+        "name": "N/A",
+        "title": "Function Organization",
+        "isLink": false
+      },
+      {
+        "text": "The second of these two main improvements was learning how to create and utilize custom macros within blueprint. The macro shown here determines the class of the hit actor from a hit event and returns the actor cast to its specific class as well as seperate execution pins for each one. Learning to make macros like this has had a similar effect as the function-based organization, even further optimizing my workflow.",
+        "name": "N/A",
+        "title": "Custom Macros",
+        "isLink": false
+      },
+      {
+        "image": "/HT24.png",
+        "name": "N/A",
+        "title": "Projectile Custom Macro",
+        "isLink": false
+      },
+      {
+        "image": "/HTTurret.gif",
+        "name": "N/A",
+        "title": "Enemy Mesh",
+        "isLink": false
+      },
+      {
+        "image": "/HTTank.gif",
+        "name": "N/A",
+        "title": "Player Mesh",
+        "isLink": false
+      },
+      {
+        "text": "At the conclusion of this project, I not only had newfound effeciency through functions and macros, but also a greatly strengthened confidence in my ability to create effeciently in blueprint.",
+        "name": "N/A",
+        "title": "Project Takeaways",
+        "isLink": false
+      },
+      {
+        "image": "/HTBoss.gif",
+        "name": "N/A",
+        "title": "Boss Mesh",
+        "isLink": false
+      }
+    ],
+    "homesick": [
+      {
+        "video": "/HS1.mp4",
+        "name": "Start",
+        "title": "Homesick",
+        "isLink": false
+      },
+      {
+        "text": "Made in the Summer of 2025, Homesick is an environment created for Applied Principles: Game Art at SCAD. This project was an opportunity for me to practice and refine my environment art skills using Maya and Unreal Engine 5.",
+        "name": "N/A",
+        "title": "Homesick",
+        "isLink": false
+      },
+      {
+        "image": "/HSShowcase.gif",
+        "name": "N/A",
+        "title": "Environment Showcase",
+        "isLink": false
+      },
+      {
+        "text": "For this project, I was tasked with creating an environment that tells a story. To accomplish this, I created this scene of a dorm-style room in a space station where a scientist is counting the days until they can go home. Unfortunately, when you look outside you see that they have no more home to return to.",
+        "name": "N/A",
+        "title": "Project Goal",
+        "isLink": false
+      },
+      {
+        "image": "/HSMeshes.gif",
+        "name": "N/A",
+        "title": "Meshes",
+        "isLink": false
+      },
+      {
+        "image": "/HSUVs.gif",
+        "name": "N/A",
+        "title": "UVs",
+        "isLink": false
+      },
+      {
+        "image": "/HSMaterials.gif",
+        "name": "N/A",
+        "title": "Materials",
+        "isLink": false
+      }
+    ],
+    "nflstats": [
+      {
+        "video": "/NFL1.mp4",
+        "name": "Start",
+        "title": "NFL Stat Factory",
+        "isLink": false
+      },
+      {
+        "text": "For Applied Principles: Programming in Fall of 2024 I was tasked simply with creating any interactive experience using java in Processing 4.0. For my project, I decided to practice the API skills I had learned the year before and create an application for viewing NFL statistics that grabs data from the public ESPN API endpoints.",
+        "name": "N/A",
+        "title": "Project Goal",
+        "isLink": false
+      },
+      {
+        "image": "/NFL2.png",
+        "name": "N/A",
+        "title": "Player Stats",
+        "isLink": false
+      },
+      {
+        "image": "/NFL3.png",
+        "name": "N/A",
+        "title": "Game Stats",
+        "isLink": false
+      }
+    ],
+    "rhythmcity": [
+      {
+        "video": "/RC1.mp4",
+        "name": "Start",
+        "title": "Rhythm City",
+        "isLink": false
+      },
+      {
+        "text": "In Core Principles: Programming at SCAD in Fall of 2022 I was tasked with creating an interactive experience in Processing 4.0 that must include at least one custom class.Since I entered this class with lots of previous programming knowledge, I decided to challenge myself to make an entire 2D platforming game from scratch for this project while also helping to teach programming to many different students in the class that were struggling with some core concepts.",
+        "name": "N/A",
+        "title": "Project Goal",
+        "isLink": false
+      },
+      {
+        "text": "I created a music based platformer where the player switches between two different tracks in order to affect the environment and progress forward through the level. To make this repeated switching as seamless as possible, I created two different music tracks that have the same melody at the same bpm, but with very different instruments.I also created a system that transfers the current progress through the track when swicthing, ensuring the song doesnt restart every time the player switches.",
+        "name": "N/A",
+        "title": "Project Outcome",
+        "isLink": false
+      },
+      {
+        "image": "/RCAssets.gif",
+        "name": "N/A",
+        "title": "Assets",
+        "isLink": false
+      },
+      {
+        "image": "/RCCode.gif",
+        "name": "N/A",
+        "title": "Classes",
+        "isLink": false
+      }
+    ],
+    "projectarmor": [
+      {
+        "video": "/PA1.mp4",
+        "name": "Start",
+        "title": "Project A.R.M.O.R.",
+        "isLink": false
+      },
+      {
+        "text": "In the Spring of 2024 I learned Maya for the first time in Core Principles: Game Art. Since I was also getting used to the Blueprint coding environment at this time, I decided to go beyond the environment that was required and also create a set of working weapons, targets, a teleport ability, and systems to track time and targets hit.",
+        "name": "N/A",
+        "title": "Project Goal",
+        "isLink": false
+      },
+      {
+        "image": "/PAShowcase.gif",
+        "name": "N/A",
+        "title": "Environment Showcase",
+        "isLink": false
+      },
+      {
+        "image": "/PAStructures.gif",
+        "name": "N/A",
+        "title": "Structures",
+        "isLink": false
+      },
+      {
+        "image": "/PAEnvironment.gif",
+        "name": "N/A",
+        "title": "Environment Meshes",
+        "isLink": false
+      },
+      {
+        "image": "/PAWeapons.gif",
+        "name": "N/A",
+        "title": "Weapons",
+        "isLink": false
+      }
+    ],
+    "aurorahullportfolio": [
+      {
+        "video": "/AH1.mp4",
+        "name": "Start",
+        "title": "Aurora's Portfolio",
+        "isLink": false
+      },
+      {
+        "text": "As one of my first projects where I worked heavily with other designers, Aurora Hull (who designed my logo) designed her own webiste, which I then programmed and published. This project was a great experience for practicing communication between tech and design.",
+        "name": "N/A",
+        "title": "Project Details",
+        "isLink": false
+      },
+      {
+        "image": "/AH2.png",
+        "name": "N/A",
+        "title": "Landing Page",
+        "isLink": false
+      },
+      {
+        "image": "/AH3.png",
+        "name": "N/A",
+        "title": "Contact Page",
+        "isLink": false
+      }
+    ],
+    "websofreverie": [
+      {
+        "video": "/WORTrailer.mp4",
+        "name": "Start",
+        "title": "Webs of Reverie",
+        "isLink": false
+      },
+      {
+        "text": "Webs of Reverie is a senior capstone project currently in progress. Our group has 8 people, in which I am in the role of Tech Lead. My two tech teammates cover enemy AI, UI and cinematic visuals, and animations while I design and program the core mechanics and systems.",
+        "name": "N/A",
+        "title": "Project Details",
+        "isLink": false
+      },
+      {
+        "image": "/InsanityProps.gif",
+        "name": "N/A",
+        "title": "Insanity Props",
+        "isLink": false
+      },
+      {
+        "image": "/WOR3.gif",
+        "name": "N/A",
+        "title": "Insanity Props Code",
+        "isLink": false
+      },
+      {
+        "text": "My work on this project covers a wide variety, including making tools for level designers, creating core mechanics and game logic, making systems to assist the theme of the game, and even creating the chase music (the track in the trailer). Two of the most useful tools I have made for this project are the Insanity Props and the Loot actors.",
+        "name": "N/A",
+        "title": "My Role",
+        "isLink": false
+      },
+      {
+        "text": "The insanity props (my personal favorite) can be placed in world and set to whatever mesh the designer wants. Then they can set whether they want the item to appear or disappear, and at what player sanity level they want that to happen. To optimize the performance of these props, I made them to where they are completely inactive until the player's sanity level crosses certain thresholds. When this happens, all Insanity props will check once evry half second to see if the player is looking in their direction or not. If the player is facing away, the prop will change and then stop checking until the player sanity level crosses another threshold.",
+        "name": "N/A",
+        "title": "Designer Tools",
+        "isLink": false
+      },
+      {
+        "image": "/Loot.gif",
+        "name": "N/A",
+        "title": "Loot",
+        "isLink": false
+      },
+      {
+        "image": "/WOR1.png",
+        "name": "N/A",
+        "title": "Loot Code",
+        "isLink": false
+      },
+      {
+        "text": "The Loot actors are one of the most used tools by our designers in level building. These have also been made so that the designer can simply place it in the world and select what mesh they want to use. It also has a Name variable that is sued across multiple systems, from my player inventory system to the save game data structure.",
+        "name": "N/A",
+        "title": "Designer Tools cont.",
+        "isLink": false
+      },
+      {
+        "text": "Many smaller systems that I designed are in place to support the theme of the game. These range from very small things like giving every door a 3% chance to randomly open or close that triggers every 2 minutes to more useful tools for designers like lighting blueprints that can be set to flicker randomly or change color based on the player's insanity level.",
+        "name": "N/A",
+        "title": "Ambience",
+        "isLink": false
+      },
+      {
+        "image": "/Lighting.gif",
+        "name": "N/A",
+        "title": "Lighting",
+        "isLink": false
+      },
+      {
+        "image": "/WOR2.png",
+        "name": "N/A",
+        "title": "Fire VFX Material",
+        "isLink": false
+      },
+      {
+        "image": "/Fire.gif",
+        "name": "N/A",
+        "title": "Fire VFX",
+        "isLink": false
+      },
+      {
+        "text": "I enjoy branching out to help in other areas as well. Some examples of this are this fire VFX material that I made strictly with noise and math - no texture or normal maps needed, the chase music, buildings out some levels, and helping with prop modeling. ",
+        "name": "N/A",
+        "title": "Other Contributions",
+        "isLink": false
+      },
+      {
+        "text": "I have greatly enjoyed working on a project of this scale. It gives me a chance to test my programming skills on a larger scale while also learning many new tools along the way. Just in the 10 weeks we have worked on this project so far, I have gotten much better with custom macros, code optimization, and code readability. I am also always learning new tools unreal engiine has, like data structures and tables and level instances.",
+        "name": "N/A",
+        "title": "What I have Learned",
+        "isLink": false
+      }
+    ],
+    "nosedive": [
+      {
+        "video": "/NDTrailer.mp4",
+        "name": "Start",
+        "title": "Nose Dive",
+        "isLink": false
+      },
+      {
+        "text": "Nose Dive is an award-winning game from Global Game Jam 2026 at SCAD. In this team of 16, I was one of three programmers. As part of a team that was mostly comprised of artists and level designers, I got a lot of good experience with cross-discipline communication and organization with this project.",
+        "name": "N/A",
+        "title": "Project Details",
+        "isLink": false
+      },
+      {
+        "image": "/ND1.gif",
+        "name": "N/A",
+        "title": "Grab/Throw Barrels",
+        "isLink": false
+      },
+      {
+        "image": "/ND2.gif",
+        "name": "N/A",
+        "title": "Bounce",
+        "isLink": false
+      },
+      {
+        "text": "/For this project, my role was to create the main gameplay mechanic and all of it's related abilities. With the prompt of 'Mask', we created Gil - a character that has a fish mask with an extending nose that it used in many different ways.",
+        "name": "N/A",
+        "title": "My Role",
+        "isLink": false
+      },
+      {
+        "image": "/NDAbilityCode.gif",
+        "name": "N/A",
+        "title": "Abilities",
+        "isLink": false
+      },
+      {
+        "image": "/ND3.gif",
+        "name": "N/A",
+        "title": "Sinking Platforms",
+        "isLink": false
+      },
+      {
+        "image": "/ND4.gif",
+        "name": "N/A",
+        "title": "Attach to Fish",
+        "isLink": false
+      },
+      {
+        "image": "/NDMoveCode.gif",
+        "name": "N/A",
+        "title": "Movement",
+        "isLink": false
+      },
+      {
+        "image": "/ND5.gif",
+        "name": "N/A",
+        "title": "Bell and Drawbridge",
+        "isLink": false
+      }
+    ]
+  }
+}

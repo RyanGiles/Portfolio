@@ -15,12 +15,12 @@ a {
 }
 
 .header {
-  padding: 3rem;
+  padding-top: 3rem;
   background-color: none;
   display: flex;
-  flex-direction: column;
   color: $white;
-  width: 50%;
+  width: 100%;
+  justify-content: center;
   &__title {
     margin: 0;
     font-size: 4rem;
@@ -49,32 +49,26 @@ a {
   }
 }
 
+.body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .nav {
   &__list {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-top: 5rem;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    margin-left: 1.5rem;
   }
 
   &__item {
-    margin: 2rem 0;
-    font-size: 1rem;
-
-    @include tablet {
-      font-size: 1.5rem;
-    }
-    @include desktop {
-      font-size: 2rem;
-    }
-
-    .nav__link {
-      text-decoration: none;
-      color: inherit;
-      display: inline-block;
+    margin: 2rem;
+    &:hover {
+      opacity: 0.75;
     }
   }
 

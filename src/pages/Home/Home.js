@@ -1,50 +1,59 @@
 import "./Home.scss";
-import BG_Video from "../../Assets/BG_Video.mp4";
 import siteLogo from "../../Assets/Icons/Logo_Clear.png";
-import { Link } from "react-router-dom";
+import SoloProjects from "../../Assets/SoloProjects.png";
+import GroupProjects from "../../Assets/GroupProjects.png";
+import aboutme from "../../Assets/AboutMe.png";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className="homepage">
-      <video autoPlay muted loop className="homepage-bg">
-        <source src={BG_Video} type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video>
       <header className="header">
         <div className="header__branding">
+          <h1 className="header__title">Ryan</h1>
           <img src={siteLogo} alt="site logo" className="header__logo" />
-          <h1 className="header__title">
-            Ryan
-            <br />
-            Giles
-          </h1>
+          <h1 className="header__title">Giles</h1>
         </div>
+      </header>
+      <div className="body">
         <nav className="nav">
           <ul className="nav__list">
-            <li className="nav__item">
-              <Link to="/gameDev" className="nav__link">
-                <h3 className="nav__text">
-                  <span className="nav__main">Game Dev</span>
-                </h3>
-              </Link>
+            <li
+              className="nav__item"
+              onClick={() => {
+                navigate("/soloProjects");
+              }}
+            >
+              <img
+                src={SoloProjects}
+                alt="Environment Art"
+                className="nav_img"
+              />
             </li>
-            <li className="nav__item">
-              <Link to="/webDev" className="nav__link">
-                <h3 className="nav__text">
-                  <span className="nav__main">Web Dev</span>
-                </h3>
-              </Link>
+            <li
+              className="nav__item"
+              onClick={() => {
+                navigate("/groupProjects");
+              }}
+            >
+              <img
+                src={GroupProjects}
+                alt="GroupProjects"
+                className="nav_img"
+              />
             </li>
-            <li className="nav__item">
-              <Link to="/contact" className="nav__link">
-                <h3 className="nav__text">
-                  <span className="nav__main">About/Contact</span>
-                </h3>
-              </Link>
+            <li
+              className="nav__item"
+              onClick={() => {
+                navigate("/contact");
+              }}
+            >
+              <img src={aboutme} alt="About Me" className="nav_img" />
             </li>
           </ul>
         </nav>
-      </header>
+      </div>
     </div>
   );
 }

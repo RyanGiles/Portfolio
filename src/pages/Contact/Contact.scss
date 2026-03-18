@@ -10,82 +10,24 @@
   }
 }
 .contact {
-  &__info {
-    animation-name: fadeIn;
-    animation-duration: 0.1s; /* How long the animation takes */
-    animation-delay: 1.25s; /* The delay before the animation starts */
-    animation-fill-mode: both;
-    position: absolute;
-    top: 14%;
-    left: 19.5%;
-    width: 62%;
-    height: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
-  }
-  &__block {
-    width: 48.5%;
-    height: 48%;
-    border-radius: 5%;
-    border: 5px solid #141e5e;
-  }
-  &__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 3%;
-  }
-  &__desc {
-    background-color: rgba(2, 15, 42, 1);
-    color: $silver;
-    padding: 1rem;
-    font-size: 0.85rem;
-    height: calc(100% - 2rem);
-    width: calc(48.5% - 2rem);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    @include HD {
-      font-size: 1.25rem;
-      width: calc(48.5% - 2rem);
-    }
-  }
-  &__texttop {
-    width: 44%;
-    height: 48%;
-    padding: 0.5rem;
-    @include HD {
-      width: 46%;
-    }
-  }
   &__form {
-    background-color: rgba(2, 15, 42, 1);
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    width: calc(48.5% - 2rem);
-    height: calc(100% - 2rem);
+    height: calc(100% - 6rem);
   }
-}
-
-.back {
-  position: absolute;
-  height: 12%;
-  left: -28%;
 }
 
 .form {
   &__label {
     color: $silver;
-    margin: 0.25rem 0;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
   }
   &__input {
     border-radius: 5px;
     border: none;
     padding: 0.5rem;
+    font-size: 1rem;
   }
   &__textarea {
     resize: none;
@@ -95,14 +37,57 @@
     font-size: 1.5rem;
     margin: 0.75rem 0;
     color: $silver;
-    background-color: #141e5e;
+    background-color: #222222;
     border: none;
     border-radius: 3px;
     padding: 0.5rem;
     width: fit-content;
     align-self: center;
     &:hover {
-      background-color: #10194b;
+      background-color: #383838;
     }
+  }
+}
+
+.download {
+  text-decoration: underline;
+  color: $silver;
+  padding: 1rem;
+  font-size: 2rem;
+  &box {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.node {
+  width: 35vw;
+  background-color: rgb(26, 26, 26);
+  position: relative;
+  opacity: 0.9;
+  border-radius: 30px;
+  margin-bottom: 3rem;
+  &__banner {
+    width: 100%;
+  }
+  &__title {
+    margin: 0;
+    color: $silver;
+    position: absolute;
+    top: 1.5rem;
+    left: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  &__content {
+    padding: 3rem;
+    height: calc(100% - 6rem);
+  }
+  &__image {
+    width: 30vw;
+  }
+  &__text {
+    color: $silver;
+    font-size: 1.75rem;
   }
 }

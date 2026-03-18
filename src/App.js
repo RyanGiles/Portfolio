@@ -2,8 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
-import GameDev from "./pages/GameDev/GameDev";
-import WebDev from "./pages/WebDev/WebDev";
+import SoloProjects from "./pages/SoloProjects/SoloProjects";
+import GroupProjects from "./pages/GroupProjects/GroupProjects";
+import Project from "./pages/Project/Project";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="gameDev" element={<GameDev />} />
-          <Route path="webDev" element={<WebDev />} />
+          <Route path="soloProjects" element={<SoloProjects />} />
+          <Route path="groupProjects" element={<GroupProjects />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="project/:projectName" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </div>
