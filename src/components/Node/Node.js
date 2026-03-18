@@ -65,7 +65,7 @@ function Node({ nodeInfo }) {
   if (nodeInfo.isLink) {
     return (
       <div
-        className="node"
+        className="node clickable"
         onClick={() => {
           navigate("/project/" + nodeInfo.name);
           window.scrollTo(0, 0);
