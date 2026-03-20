@@ -32,7 +32,7 @@
         "isLink": false
       },
       {
-        "text": "The map redesign now forces players to enter the range of the enemies in order to fight them. It also introduced destructible stone barriers that the player can destroy after recieving an upgrade from destroyed enemies.",
+        "text": "The map redesign now forces players to enter the range of the enemies in order to fight them. It also introduced destructible stone barriers that the player can destroy after receiving an upgrade from destroyed enemies.",
         "name": "N/A",
         "title": "New Map Solutions",
         "isLink": false
@@ -164,13 +164,13 @@
         "isLink": false
       },
       {
-        "text": "In Core Principles: Programming at SCAD in Fall of 2022 I was tasked with creating an interactive experience in Processing 4.0 that must include at least one custom class.Since I entered this class with lots of previous programming knowledge, I decided to challenge myself to make an entire 2D platforming game from scratch for this project while also helping to teach programming to many different students in the class that were struggling with some core concepts.",
+        "text": "In Core Principles: Programming at SCAD in Fall of 2022 I was tasked with creating an interactive experience in Processing 4.0 that must include at least one custom class. Since I entered this class with lots of previous programming knowledge, I decided to challenge myself to make an entire 2D platforming game from scratch for this project while also helping to teach programming to many different students in the class that were struggling with some core concepts.",
         "name": "N/A",
         "title": "Project Goal",
         "isLink": false
       },
       {
-        "text": "I created a music based platformer where the player switches between two different tracks in order to affect the environment and progress forward through the level. To make this repeated switching as seamless as possible, I created two different music tracks that have the same melody at the same bpm, but with very different instruments.I also created a system that transfers the current progress through the track when swicthing, ensuring the song doesnt restart every time the player switches.",
+        "text": "I created a music based platformer where the player switches between two different tracks in order to affect the environment and progress forward through the level. To make this repeated switching as seamless as possible, I created two different music tracks that have the same melody at the same bpm, but with very different instruments. I also created a system that transfers the current progress through the track when swicthing, ensuring the song doesn't restart every time the player switches.",
         "name": "N/A",
         "title": "Project Outcome",
         "isLink": false
@@ -196,7 +196,7 @@
         "isLink": false
       },
       {
-        "text": "In the Spring of 2024 I learned Maya for the first time in Core Principles: Game Art. Since I was also getting used to the Blueprint coding environment at this time, I decided to go beyond the environment that was required and also create a set of working weapons, targets, a teleport ability, and systems to track time and targets hit.",
+        "text": "In the Spring of 2024, I learned Maya for the first time in Core Principles: Game Art. Since I was also getting used to the Blueprint coding environment at this time, I decided to go beyond the environment that was required and also create a set of working weapons, targets, a teleport ability, and systems to track time and targets hit.",
         "name": "N/A",
         "title": "Project Goal",
         "isLink": false
@@ -284,7 +284,7 @@
         "isLink": false
       },
       {
-        "text": "The insanity props (my personal favorite) can be placed in world and set to whatever mesh the designer wants. Then they can set whether they want the item to appear or disappear, and at what player sanity level they want that to happen. To optimize the performance of these props, I made them to where they are completely inactive until the player's sanity level crosses certain thresholds. When this happens, all Insanity props will check once evry half second to see if the player is looking in their direction or not. If the player is facing away, the prop will change and then stop checking until the player sanity level crosses another threshold.",
+        "text": "The insanity props (my personal favorite) can be placed in world and set to whatever mesh the designer wants. Then they can set whether they want the item to appear or disappear, and at what player sanity level they want that to happen. To optimize the performance of these props, I made them to where they are completely inactive until the player's sanity level crosses certain thresholds. When this happens, all insanity props will check once every half second to see if the player is looking in their direction or not. If the player is facing away, the prop will change and then stop checking until the player sanity level crosses another threshold.",
         "name": "N/A",
         "title": "Designer Tools",
         "isLink": false
@@ -302,7 +302,7 @@
         "isLink": false
       },
       {
-        "text": "The Loot actors are one of the most used tools by our designers in level building. These have also been made so that the designer can simply place it in the world and select what mesh they want to use. It also has a Name variable that is sued across multiple systems, from my player inventory system to the save game data structure.",
+        "text": "The Loot actors are one of the most used tools by our designers in level building. These have also been made so that the designer can simply place it in the world and select what mesh they want to use. It also has a Name variable that is used across multiple systems, from my player inventory system to the save game data structure.",
         "name": "N/A",
         "title": "Designer Tools cont.",
         "isLink": false
@@ -332,13 +332,13 @@
         "isLink": false
       },
       {
-        "text": "I enjoy branching out to help in other areas as well. Some examples of this are this fire VFX material that I made strictly with noise and math - no texture or normal maps needed, the chase music, buildings out some levels, and helping with prop modeling. ",
+        "text": "I enjoy branching out to help in other areas as well. Some examples of this are this fire VFX material that I made strictly with noise and math (no texture or normal maps needed), the chase music, buildings out some levels, and helping with prop modeling. ",
         "name": "N/A",
         "title": "Other Contributions",
         "isLink": false
       },
       {
-        "text": "I have greatly enjoyed working on a project of this scale. It gives me a chance to test my programming skills on a larger scale while also learning many new tools along the way. Just in the 10 weeks we have worked on this project so far, I have gotten much better with custom macros, code optimization, and code readability. I am also always learning new tools unreal engiine has, like data structures and tables and level instances.",
+        "text": "I have greatly enjoyed working on a project of this scale. It gives me a chance to test my programming skills on a larger scale while also learning many new tools along the way. Just in the 10 weeks we have worked on this project so far, I have become proficient with custom macros, code optimization, and code readability. I am also always learning new tools unreal engine has, like data structures and tables and level instances.",
         "name": "N/A",
         "title": "What I have Learned",
         "isLink": false
@@ -370,7 +370,7 @@
         "isLink": false
       },
       {
-        "text": "/For this project, my role was to create the main gameplay mechanic and all of it's related abilities. With the prompt of 'Mask', we created Gil - a character that has a fish mask with an extending nose that it used in many different ways.",
+        "text": "For this project, my role was to create the main gameplay mechanic and all of its related abilities. With the prompt of 'Mask', we created Gil - a character that has a fish mask with an extending nose that it used in many different ways.",
         "name": "N/A",
         "title": "My Role",
         "isLink": false
