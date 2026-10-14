@@ -47,10 +47,11 @@ function Contact() {
           <h3 className="node__title">About Me</h3>
           <div className="node__content">
             <p className="node__text">
-              Howdy! My name is Ryan Giles, and I am a Game Development student
-              at SCAD (Savannah College of Art and Design) set to graduate in
-              May '26. Before going to SCAD, I spent 2 years studying Computer
-              Science at Texas A&M University.
+              Howdy! My name is Ryan Giles, and I am a Game Developer with a
+              Bachelor's of Game Development from SCAD (Savannah College of Art
+              and Design). Before going to SCAD, I spent 2 years studying
+              Computer Science at Texas A&M University. I am currently working
+              as a QA Tester at ProbablyMonsters.
             </p>
           </div>
         </div>
@@ -61,13 +62,13 @@ function Contact() {
             <p className="node__text">
               I also received a Software Development Diploma from Brainstation
               Coding Bootcamp, where I learned to design and program websites
-              using HTML, CSS, and React.js.Throughout this time, I have learned
-              to be the bridge between Designers and Engineers. I frequently
-              assist Designers not only in the ideation and creation of designs,
-              but also in ensuring that the design will mesh well with the
-              abilities of Engineers and capabilities of technology. I also
-              regularly help Engineers keep in mind a human-centered design that
-              will be user-friendly when ideating and creating product
+              using HTML, CSS, and React.js. Throughout this time, I have
+              learned to be the bridge between Designers and Engineers. I
+              frequently assist Designers not only in the ideation and creation
+              of designs, but also in ensuring that the design will mesh well
+              with the abilities of Engineers and capabilities of technology. I
+              also regularly help Engineers keep in mind a human-centered design
+              that will be user-friendly when ideating and creating product
               functionality.
             </p>
           </div>
