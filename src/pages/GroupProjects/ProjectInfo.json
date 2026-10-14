@@ -1,10 +1,16 @@
 {
   "projects": [
     {
-      "text": "In all of the following group projects I acted as the main/only programmer, designing most/all systems and coordinating with designers on project needs.",
+      "text": "In most of the following group projects I acted as the main/only programmer, designing most/all systems and coordinating with designers on project needs. The projects at ProbablyMonsters are as a QA Tester.",
       "name": "beginplay",
       "title": "Begin Play",
       "isLink": false
+    },
+    {
+      "image": "/CM1.png",
+      "name": "crimsonmoon",
+      "title": "Crimson Moon",
+      "isLink": true
     },
     {
       "image": "/WORThumbnail.png",

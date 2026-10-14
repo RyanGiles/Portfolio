@@ -1,5 +1,31 @@
 {
   "projects": {
+    "crimsonmoon": [
+      {
+        "video": "https://www.youtube.com/watch?v=2Y0THCDesSc",
+        "name": "Start",
+        "title": "Crimson Moon",
+        "isLink": false
+      },
+      {
+        "text": "Released on September 1st 2026, Crimson Moon is the first AA game released that I had worked on.",
+        "name": "N/A",
+        "title": "Crimson Moon",
+        "isLink": false
+      },
+      {
+        "text": "Working on Crimson Moon (along with Nekome: Nazi Hunter) is where I learned the standard QA workflow, and became proficient in Jira and Testrail. I would work closely with other QA testers and Developers to ensure bugs were found, properly documented, addressed, and resolved.",
+        "name": "N/A",
+        "title": "What I learned",
+        "isLink": false
+      },
+      {
+        "image": "https://www.youtube.com/watch?v=ul3gAI899IQ",
+        "name": "N/A",
+        "title": "Release Date Trailer",
+        "isLink": false
+      }
+    ],
     "hypertanks": [
       {
         "video": "/HT1.mp4",
