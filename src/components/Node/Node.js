@@ -17,14 +17,10 @@ function getContent(nodeInfo) {
       <iframe
         src={nodeInfo.youtube}
         title="YouTube video player"
-        frameborder="0"
-        loop
-        controls
-        autoPlay
         className="node__image"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
       ></iframe>
     );
   } else {
