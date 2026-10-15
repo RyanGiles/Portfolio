@@ -2,7 +2,7 @@
   "projects": {
     "crimsonmoon": [
       {
-        "video": "https://www.youtube.com/watch?v=2Y0THCDesSc",
+        "youtube": "https://www.youtube.com/watch?v=2Y0THCDesSc",
         "name": "Start",
         "title": "Crimson Moon",
         "isLink": false
@@ -20,7 +20,7 @@
         "isLink": false
       },
       {
-        "image": "https://www.youtube.com/watch?v=ul3gAI899IQ",
+        "youtube": "https://www.youtube.com/watch?v=ul3gAI899IQ",
         "name": "N/A",
         "title": "Release Date Trailer",
         "isLink": false

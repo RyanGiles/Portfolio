@@ -12,6 +12,21 @@ function getContent(nodeInfo) {
     return (
       <img src={nodeInfo.image} alt={nodeInfo.name} className="node__image" />
     );
+  } else if ("youtube" in nodeInfo) {
+    return (
+      <iframe
+        src={nodeInfo.youtube}
+        title="YouTube video player"
+        frameborder="0"
+        loop
+        controls
+        autoPlay
+        className="node__image"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    );
   } else {
     return (
       <video
